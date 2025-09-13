@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Fibonacci {
     public static int fibonacci(int n) {
         if (n == 0 || n == 1) {
@@ -8,7 +10,8 @@ public class Fibonacci {
     }
 
     public static void main(String[] args) {
-        int n = 8;
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
         System.out.println("The Fibonacci sequence of " + n + "is " + fibonacci(n));
     }
 }

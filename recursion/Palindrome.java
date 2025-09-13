@@ -15,6 +15,6 @@ public class Palindrome {
 
     public static void main(String[] args) {
         String str = "racecar";
-        System.out.println("The palindrome of the string " + str + " is " + isPalindrome(0, 0, str));
+        System.out.println("The palindrome of the string " + str + " is " + isPalindrome(0, str.length()-1, str));
     }
 }
