@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Sieve {
 
-        public static void main(String[] args) {
+    public static void main(String[] args) {
         // Sieve of erathosthenes
         // finding all primes in range of numbers from 2 to n
 
@@ -37,4 +37,4 @@ public class Sieve {
 
         System.out.println(ans);
     }
-}}
+}
